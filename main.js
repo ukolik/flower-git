@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const dotsContainer = document.querySelector('.dots-container');
     const message = document.querySelector('.message');
-    const congratulationsText = "С 8 Марта! Желаю счастья и весеннего настроения!";
+    const congratulationsText = "Прости, что не успел поздравить с 8 марта, но " +
+        "знай, что я люблю тебя!";
     const audio = document.getElementById('player');
     const playBtn = document.getElementById('play-btn');
 
